@@ -11577,8 +11577,7 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
       id: "qqbot",
       configSchema: {
         type: "object",
-        additionalProperties: false,
-        properties: {},
+        additionalProperties: true,
       },
       channels: ["qqbot"],
     },
