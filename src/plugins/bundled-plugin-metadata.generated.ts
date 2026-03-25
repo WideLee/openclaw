@@ -11745,6 +11745,7 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
         },
       },
       channels: ["qqbot"],
+      skills: ["./skills"],
     },
   },
   {
