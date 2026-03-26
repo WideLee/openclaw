@@ -11572,6 +11572,12 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
         blurb: "connect to QQ via official QQ Bot API with group chat and direct message support.",
         systemImage: "bubble.left.and.bubble.right",
       },
+      install: {
+        npmSpec: "@openclaw/qqbot",
+        localPath: "extensions/qqbot",
+        defaultChoice: "npm",
+        minHostVersion: ">=2026.3.22",
+      },
     },
     manifest: {
       id: "qqbot",
