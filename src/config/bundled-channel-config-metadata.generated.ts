@@ -8791,10 +8791,6 @@ export const GENERATED_BUNDLED_CHANNEL_CONFIG_METADATA = [
         clientSecretFile: {
           type: "string",
         },
-        dmPolicy: {
-          type: "string",
-          enum: ["pairing", "allowlist", "open", "disabled"],
-        },
         allowFrom: {
           type: "array",
           items: {
@@ -8934,10 +8930,6 @@ export const GENERATED_BUNDLED_CHANNEL_CONFIG_METADATA = [
               },
               clientSecretFile: {
                 type: "string",
-              },
-              dmPolicy: {
-                type: "string",
-                enum: ["pairing", "allowlist", "open", "disabled"],
               },
               allowFrom: {
                 type: "array",

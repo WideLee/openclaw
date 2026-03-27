@@ -11653,10 +11653,6 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
               clientSecretFile: {
                 type: "string",
               },
-              dmPolicy: {
-                type: "string",
-                enum: ["open", "pairing", "allowlist"],
-              },
               allowFrom: {
                 type: "array",
                 items: {
@@ -11706,10 +11702,6 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
           },
           clientSecretFile: {
             type: "string",
-          },
-          dmPolicy: {
-            type: "string",
-            enum: ["open", "pairing", "allowlist"],
           },
           allowFrom: {
             type: "array",
@@ -11835,10 +11827,6 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
               },
               clientSecretFile: {
                 type: "string",
-              },
-              dmPolicy: {
-                type: "string",
-                enum: ["pairing", "allowlist", "open", "disabled"],
               },
               allowFrom: {
                 type: "array",
@@ -11979,10 +11967,6 @@ export const GENERATED_BUNDLED_PLUGIN_METADATA = [
                     },
                     clientSecretFile: {
                       type: "string",
-                    },
-                    dmPolicy: {
-                      type: "string",
-                      enum: ["pairing", "allowlist", "open", "disabled"],
                     },
                     allowFrom: {
                       type: "array",
